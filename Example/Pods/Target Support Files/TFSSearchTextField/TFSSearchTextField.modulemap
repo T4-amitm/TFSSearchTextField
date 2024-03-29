@@ -1,0 +1,6 @@
+framework module TFSSearchTextField {
+  umbrella header "TFSSearchTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

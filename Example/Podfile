@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TFSSearchTextField_Example' do
+  pod 'TFSSearchTextField', :path => '../'
+
+  target 'TFSSearchTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

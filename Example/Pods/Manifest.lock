@@ -1,0 +1,16 @@
+PODS:
+  - TFSSearchTextField (0.1.0)
+
+DEPENDENCIES:
+  - TFSSearchTextField (from `../`)
+
+EXTERNAL SOURCES:
+  TFSSearchTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFSSearchTextField: 28684a287eeaf425c1fe2d1c4f9a82a1b8022213
+
+PODFILE CHECKSUM: 00957fba9a7f0c5e012f263d94186b6d29bf3872
+
+COCOAPODS: 1.14.3

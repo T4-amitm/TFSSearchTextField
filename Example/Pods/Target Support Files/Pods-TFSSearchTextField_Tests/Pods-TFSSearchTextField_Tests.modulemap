@@ -1,0 +1,6 @@
+framework module Pods_TFSSearchTextField_Tests {
+  umbrella header "Pods-TFSSearchTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
