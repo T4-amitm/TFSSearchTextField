@@ -6,38 +6,28 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		E4B868CE440B5770016959F4EE84D284 /* TFSSearchTextField */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 245C672983A252568A55A7B669AD60B6 /* Build configuration list for PBXAggregateTarget "TFSSearchTextField" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = TFSSearchTextField;
-			productName = TFSSearchTextField;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		3B7089272BB69A1B00414F33 /* TFSSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7089262BB69A1B00414F33 /* TFSSearchTextField.swift */; };
+		3761B0958D64A87703C947BB197E0CB9 /* TFSSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E40893520A6949F32B4D538F5D23AF /* TFSSearchTextField.swift */; };
+		3A3D78C232B9525317A5E843F05856F8 /* TFSSearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F582F85DED916D54B16C0A04CF8C7E /* TFSSearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F7FE83CDD8B8D76566F9C2CEE28C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7080B24A290C6390B50206B6FC53F265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8844DB81007339ADF241C51E343547C9 /* Pods-TFSSearchTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E193365AB244E4B55F2DC0F11FA4C481 /* Pods-TFSSearchTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A738C2CB65FB1CB40177AE6786C6632 /* Pods-TFSSearchTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3408C56AE4F7A6A6993E408689F94123 /* Pods-TFSSearchTextField_Tests-dummy.m */; };
-		B40C39C092C3FD662BA0B2DB8485BC7B /* Pods-TFSSearchTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E31AD1DE2B82B58DC3F6C334CDBCD3 /* Pods-TFSSearchTextField_Example-dummy.m */; };
-		D817302754362ECCEC2E7E2AC36C39EF /* Pods-TFSSearchTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3A07ECFA63679AC7DC7BC80A7D622 /* Pods-TFSSearchTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8844DB81007339ADF241C51E343547C9 /* Pods-TFSSearchTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274993FB7A4DF290ECED0B26073CA023 /* Pods-TFSSearchTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A738C2CB65FB1CB40177AE6786C6632 /* Pods-TFSSearchTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FC78BDCF363528BC8CAF8652FA5768 /* Pods-TFSSearchTextField_Tests-dummy.m */; };
+		B40C39C092C3FD662BA0B2DB8485BC7B /* Pods-TFSSearchTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F747941ED66E655EF222A75216E453A3 /* Pods-TFSSearchTextField_Example-dummy.m */; };
+		B67B65ECE4469118079ADEF8048A028E /* TFSSearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93777E0E6F7DDF90865F25E1D2D5B62B /* TFSSearchTextField-dummy.m */; };
+		D817302754362ECCEC2E7E2AC36C39EF /* Pods-TFSSearchTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5151AA1899262C8AE01F548CBB810E4 /* Pods-TFSSearchTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA47FC0DA4166B05A703A2406AD15807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00872D8152C6705DDCAD6100C7099E14 /* PBXContainerItemProxy */ = {
+		4CAB267E2A9194EC58501256033615B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E4B868CE440B5770016959F4EE84D284;
 			remoteInfo = TFSSearchTextField;
 		};
-		EC371D219AD6E59D350A420810F8311F /* PBXContainerItemProxy */ = {
+		8D17831197AD12AEFDF3E17D4934B3D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,31 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034E29317532C7269975A751B67ABC0A /* Pods-TFSSearchTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		078A83FA67A5E004E44F39106F951CA4 /* Pods-TFSSearchTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFSSearchTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1843434D43247224322E71D1649D1B7C /* Pods-TFSSearchTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2ED199C5F054F547FA070D051E817EA4 /* Pods-TFSSearchTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		337718AAD6695F4DA0F9E837ACE0D50D /* Pods-TFSSearchTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFSSearchTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		3408C56AE4F7A6A6993E408689F94123 /* Pods-TFSSearchTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFSSearchTextField_Tests-dummy.m"; sourceTree = "<group>"; };
-		38713F2BCD5EDFED9DCBD6B9581D2DE0 /* Pods-TFSSearchTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B7089262BB69A1B00414F33 /* TFSSearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFSSearchTextField.swift; path = Classes/TFSSearchTextField.swift; sourceTree = "<group>"; };
-		430D7C69F48DB50C4D72BAB2196613CC /* TFSSearchTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TFSSearchTextField.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		4BC7F3979B133C9C1322B5D408EE02B4 /* Pods-TFSSearchTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Tests-Info.plist"; sourceTree = "<group>"; };
-		56E06710B00D12B7BE3E4005792E3DBA /* Pods-TFSSearchTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFSSearchTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6738A4E576C94B50FD7B9561312C1B36 /* Pods-TFSSearchTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFSSearchTextField_Example.modulemap"; sourceTree = "<group>"; };
-		712141E9C57571E9BD30323A86687B58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D013B2001BAE6CEF063CC3E07F455C3 /* Pods-TFSSearchTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		274993FB7A4DF290ECED0B26073CA023 /* Pods-TFSSearchTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFSSearchTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		27FA4B6A18B1423B74BC723E3605934E /* TFSSearchTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFSSearchTextField.release.xcconfig; sourceTree = "<group>"; };
+		328188E0B89D14433A9C1DB723E27187 /* Pods-TFSSearchTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		3472777524600E594A3B16581F6F979F /* Pods-TFSSearchTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E3C9C489AA3C25573990954CB481ECC /* Pods-TFSSearchTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFSSearchTextField_Example.modulemap"; sourceTree = "<group>"; };
+		433401A5754E7A9614A9BB8D927B64B6 /* Pods-TFSSearchTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		4A2B30A62BF977A8780E7F3C575976C6 /* TFSSearchTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TFSSearchTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51FC78BDCF363528BC8CAF8652FA5768 /* Pods-TFSSearchTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFSSearchTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		5245BD15F2434ACA65C0D18BF094CEAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54ED58FCB60FA32B875C07330DA03469 /* Pods-TFSSearchTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFSSearchTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D29B3500A5E4FF51BB2945344C9F34F /* Pods-TFSSearchTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFSSearchTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6781FE64DE5E158B291133B23860AA80 /* TFSSearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFSSearchTextField.modulemap; sourceTree = "<group>"; };
+		6D3D327CC414AA3D4AF7F887DC3E288E /* Pods-TFSSearchTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFSSearchTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		96760F049760AADDA28E7E368C11E7EC /* Pods_TFSSearchTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFSSearchTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5E31AD1DE2B82B58DC3F6C334CDBCD3 /* Pods-TFSSearchTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFSSearchTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		CAEDFC637A675A3D88789B5F71843A2D /* Pods-TFSSearchTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Example-Info.plist"; sourceTree = "<group>"; };
-		CD32F35760ACDC47066D54EAE133E414 /* TFSSearchTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFSSearchTextField.debug.xcconfig; sourceTree = "<group>"; };
-		CD75BD5E4304D38671C6E3A39BF31BE4 /* Pods-TFSSearchTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D50F37BF9086BC2731CA3E2BCE4DF334 /* TFSSearchTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFSSearchTextField.release.xcconfig; sourceTree = "<group>"; };
-		DE33CA9A54C9E872C1F18F3B4A764AA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E193365AB244E4B55F2DC0F11FA4C481 /* Pods-TFSSearchTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFSSearchTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		E2FE9E44B8121707E97693AF22AB2D83 /* Pods-TFSSearchTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFSSearchTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8D3A07ECFA63679AC7DC7BC80A7D622 /* Pods-TFSSearchTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFSSearchTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7609064FC792C0EB306F02736EC8AE74 /* TFSSearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFSSearchTextField-prefix.pch"; sourceTree = "<group>"; };
+		8D8C282E4E4A91DF1F053EE7C8F35951 /* TFSSearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TFSSearchTextField-Info.plist"; sourceTree = "<group>"; };
+		93777E0E6F7DDF90865F25E1D2D5B62B /* TFSSearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFSSearchTextField-dummy.m"; sourceTree = "<group>"; };
+		96760F049760AADDA28E7E368C11E7EC /* Pods-TFSSearchTextField_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TFSSearchTextField_Example"; path = Pods_TFSSearchTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98080805D564BCAE10E4A33CE48F0124 /* TFSSearchTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFSSearchTextField.debug.xcconfig; sourceTree = "<group>"; };
+		9A90C43D2903512BECED522431FDD1DD /* Pods-TFSSearchTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC4AFC56D006F19F80ECEA0AC26154D /* Pods-TFSSearchTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A128674714890C863D4D53DF65B501C6 /* Pods-TFSSearchTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A4CED6C151D0007C7007621472408369 /* Pods-TFSSearchTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFSSearchTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5151AA1899262C8AE01F548CBB810E4 /* Pods-TFSSearchTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFSSearchTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B259BAC1799B254F28986E85982A3AEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4F582F85DED916D54B16C0A04CF8C7E /* TFSSearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFSSearchTextField-umbrella.h"; sourceTree = "<group>"; };
+		D51EF8D640DB53425FFDCA633F11436C /* TFSSearchTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFSSearchTextField; path = TFSSearchTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E40893520A6949F32B4D538F5D23AF /* TFSSearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TFSSearchTextField.swift; path = Classes/TFSSearchTextField.swift; sourceTree = "<group>"; };
+		E8F1DE407444BCF1FAA34268B3F0E7DC /* Pods-TFSSearchTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFSSearchTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		F747941ED66E655EF222A75216E453A3 /* Pods-TFSSearchTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFSSearchTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		FE5175272F3B94A7F36ECF43D6A90B6C /* Pods-TFSSearchTextField_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TFSSearchTextField_Tests"; path = Pods_TFSSearchTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +78,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7080B24A290C6390B50206B6FC53F265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7DB9A37BBA40EEB3D92D89364005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA47FC0DA4166B05A703A2406AD15807 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,40 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1892BA19858F6B6454D9526923E12A7A /* TFSSearchTextField */ = {
+		136638A7204BD1C900AAD53800F10512 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3B7089262BB69A1B00414F33 /* TFSSearchTextField.swift */,
-				B1B281C425B287CF343AB75D94B33511 /* Pod */,
-				BC1917D12AB311DCF1FBFF97C9B8E1E4 /* Support Files */,
+				5245BD15F2434ACA65C0D18BF094CEAF /* LICENSE */,
+				B259BAC1799B254F28986E85982A3AEF /* README.md */,
+				4A2B30A62BF977A8780E7F3C575976C6 /* TFSSearchTextField.podspec */,
 			);
-			name = TFSSearchTextField;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3315E7583C3DFE43567AE035692129A0 /* Products */ = {
+		51ACD563D8FDE6E8A488E962E0534741 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				96760F049760AADDA28E7E368C11E7EC /* Pods_TFSSearchTextField_Example.framework */,
-				FE5175272F3B94A7F36ECF43D6A90B6C /* Pods-TFSSearchTextField_Tests */,
+				7EFC08F99931EDBE54793024C0D15D8E /* Pods-TFSSearchTextField_Example */,
+				D70A2F06E38E0CC52C36AE8E94901637 /* Pods-TFSSearchTextField_Tests */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		43A3DC160734C22159FDEDE5327FCC43 /* Pods-TFSSearchTextField_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6738A4E576C94B50FD7B9561312C1B36 /* Pods-TFSSearchTextField_Example.modulemap */,
-				078A83FA67A5E004E44F39106F951CA4 /* Pods-TFSSearchTextField_Example-acknowledgements.markdown */,
-				E2FE9E44B8121707E97693AF22AB2D83 /* Pods-TFSSearchTextField_Example-acknowledgements.plist */,
-				B5E31AD1DE2B82B58DC3F6C334CDBCD3 /* Pods-TFSSearchTextField_Example-dummy.m */,
-				CAEDFC637A675A3D88789B5F71843A2D /* Pods-TFSSearchTextField_Example-Info.plist */,
-				E193365AB244E4B55F2DC0F11FA4C481 /* Pods-TFSSearchTextField_Example-umbrella.h */,
-				1843434D43247224322E71D1649D1B7C /* Pods-TFSSearchTextField_Example.debug.xcconfig */,
-				CD75BD5E4304D38671C6E3A39BF31BE4 /* Pods-TFSSearchTextField_Example.release.xcconfig */,
-			);
-			name = "Pods-TFSSearchTextField_Example";
-			path = "Target Support Files/Pods-TFSSearchTextField_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -139,67 +127,67 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		970EE3C46408FD8FF8E4E53D877BF110 /* Pods-TFSSearchTextField_Tests */ = {
+		623806EAAAD4088BF791DEF4454DA77C /* TFSSearchTextField */ = {
 			isa = PBXGroup;
 			children = (
-				337718AAD6695F4DA0F9E837ACE0D50D /* Pods-TFSSearchTextField_Tests.modulemap */,
-				56E06710B00D12B7BE3E4005792E3DBA /* Pods-TFSSearchTextField_Tests-acknowledgements.markdown */,
-				38713F2BCD5EDFED9DCBD6B9581D2DE0 /* Pods-TFSSearchTextField_Tests-acknowledgements.plist */,
-				3408C56AE4F7A6A6993E408689F94123 /* Pods-TFSSearchTextField_Tests-dummy.m */,
-				4BC7F3979B133C9C1322B5D408EE02B4 /* Pods-TFSSearchTextField_Tests-Info.plist */,
-				F8D3A07ECFA63679AC7DC7BC80A7D622 /* Pods-TFSSearchTextField_Tests-umbrella.h */,
-				034E29317532C7269975A751B67ABC0A /* Pods-TFSSearchTextField_Tests.debug.xcconfig */,
-				2ED199C5F054F547FA070D051E817EA4 /* Pods-TFSSearchTextField_Tests.release.xcconfig */,
+				E0E40893520A6949F32B4D538F5D23AF /* TFSSearchTextField.swift */,
+				136638A7204BD1C900AAD53800F10512 /* Pod */,
+				B2364FCAC6EC7635861CE700BA5CD58E /* Support Files */,
 			);
-			name = "Pods-TFSSearchTextField_Tests";
-			path = "Target Support Files/Pods-TFSSearchTextField_Tests";
+			name = TFSSearchTextField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		AAEFCEC98881D1DC701507A88F85D595 /* Development Pods */ = {
+		7EFC08F99931EDBE54793024C0D15D8E /* Pods-TFSSearchTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1892BA19858F6B6454D9526923E12A7A /* TFSSearchTextField */,
+				3E3C9C489AA3C25573990954CB481ECC /* Pods-TFSSearchTextField_Example.modulemap */,
+				5D29B3500A5E4FF51BB2945344C9F34F /* Pods-TFSSearchTextField_Example-acknowledgements.markdown */,
+				1D013B2001BAE6CEF063CC3E07F455C3 /* Pods-TFSSearchTextField_Example-acknowledgements.plist */,
+				F747941ED66E655EF222A75216E453A3 /* Pods-TFSSearchTextField_Example-dummy.m */,
+				54ED58FCB60FA32B875C07330DA03469 /* Pods-TFSSearchTextField_Example-frameworks.sh */,
+				328188E0B89D14433A9C1DB723E27187 /* Pods-TFSSearchTextField_Example-Info.plist */,
+				274993FB7A4DF290ECED0B26073CA023 /* Pods-TFSSearchTextField_Example-umbrella.h */,
+				9A90C43D2903512BECED522431FDD1DD /* Pods-TFSSearchTextField_Example.debug.xcconfig */,
+				A128674714890C863D4D53DF65B501C6 /* Pods-TFSSearchTextField_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-TFSSearchTextField_Example";
+			path = "Target Support Files/Pods-TFSSearchTextField_Example";
 			sourceTree = "<group>";
 		};
-		B1B281C425B287CF343AB75D94B33511 /* Pod */ = {
+		B2364FCAC6EC7635861CE700BA5CD58E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				712141E9C57571E9BD30323A86687B58 /* LICENSE */,
-				DE33CA9A54C9E872C1F18F3B4A764AA0 /* README.md */,
-				430D7C69F48DB50C4D72BAB2196613CC /* TFSSearchTextField.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC1917D12AB311DCF1FBFF97C9B8E1E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD32F35760ACDC47066D54EAE133E414 /* TFSSearchTextField.debug.xcconfig */,
-				D50F37BF9086BC2731CA3E2BCE4DF334 /* TFSSearchTextField.release.xcconfig */,
+				6781FE64DE5E158B291133B23860AA80 /* TFSSearchTextField.modulemap */,
+				93777E0E6F7DDF90865F25E1D2D5B62B /* TFSSearchTextField-dummy.m */,
+				8D8C282E4E4A91DF1F053EE7C8F35951 /* TFSSearchTextField-Info.plist */,
+				7609064FC792C0EB306F02736EC8AE74 /* TFSSearchTextField-prefix.pch */,
+				D4F582F85DED916D54B16C0A04CF8C7E /* TFSSearchTextField-umbrella.h */,
+				98080805D564BCAE10E4A33CE48F0124 /* TFSSearchTextField.debug.xcconfig */,
+				27FA4B6A18B1423B74BC723E3605934E /* TFSSearchTextField.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TFSSearchTextField";
 			sourceTree = "<group>";
 		};
-		C2A0F2164B7733495B4E422669E270EC /* Targets Support Files */ = {
+		C5CC155DAC1EFFBE43477415B5A38EA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43A3DC160734C22159FDEDE5327FCC43 /* Pods-TFSSearchTextField_Example */,
-				970EE3C46408FD8FF8E4E53D877BF110 /* Pods-TFSSearchTextField_Tests */,
+				96760F049760AADDA28E7E368C11E7EC /* Pods-TFSSearchTextField_Example */,
+				FE5175272F3B94A7F36ECF43D6A90B6C /* Pods-TFSSearchTextField_Tests */,
+				D51EF8D640DB53425FFDCA633F11436C /* TFSSearchTextField */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AAEFCEC98881D1DC701507A88F85D595 /* Development Pods */,
+				F61BFBED7FCBA8918EFB645DD4A04726 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3315E7583C3DFE43567AE035692129A0 /* Products */,
-				C2A0F2164B7733495B4E422669E270EC /* Targets Support Files */,
+				C5CC155DAC1EFFBE43477415B5A38EA0 /* Products */,
+				51ACD563D8FDE6E8A488E962E0534741 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,9 +199,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D70A2F06E38E0CC52C36AE8E94901637 /* Pods-TFSSearchTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1DE407444BCF1FAA34268B3F0E7DC /* Pods-TFSSearchTextField_Tests.modulemap */,
+				6D3D327CC414AA3D4AF7F887DC3E288E /* Pods-TFSSearchTextField_Tests-acknowledgements.markdown */,
+				3472777524600E594A3B16581F6F979F /* Pods-TFSSearchTextField_Tests-acknowledgements.plist */,
+				51FC78BDCF363528BC8CAF8652FA5768 /* Pods-TFSSearchTextField_Tests-dummy.m */,
+				433401A5754E7A9614A9BB8D927B64B6 /* Pods-TFSSearchTextField_Tests-Info.plist */,
+				A5151AA1899262C8AE01F548CBB810E4 /* Pods-TFSSearchTextField_Tests-umbrella.h */,
+				9EC4AFC56D006F19F80ECEA0AC26154D /* Pods-TFSSearchTextField_Tests.debug.xcconfig */,
+				A4CED6C151D0007C7007621472408369 /* Pods-TFSSearchTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-TFSSearchTextField_Tests";
+			path = "Target Support Files/Pods-TFSSearchTextField_Tests";
+			sourceTree = "<group>";
+		};
+		F61BFBED7FCBA8918EFB645DD4A04726 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				623806EAAAD4088BF791DEF4454DA77C /* TFSSearchTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		251A1E1CA680AE672126BEB9976C04D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3D78C232B9525317A5E843F05856F8 /* TFSSearchTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3008FFE59C6A241A4285C2360F29DF04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,11 +265,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				0F64EFE0DFB13544E7D39659B62BF6A3 /* PBXTargetDependency */,
+				4209215CC0BBB96436FA47689A08A228 /* PBXTargetDependency */,
 			);
 			name = "Pods-TFSSearchTextField_Example";
 			productName = Pods_TFSSearchTextField_Example;
-			productReference = 96760F049760AADDA28E7E368C11E7EC /* Pods_TFSSearchTextField_Example.framework */;
+			productReference = 96760F049760AADDA28E7E368C11E7EC /* Pods-TFSSearchTextField_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		B0603E58191D585CECFFDB1F0F126F4D /* Pods-TFSSearchTextField_Tests */ = {
@@ -264,11 +284,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				0C3E0F9B5D34FB5212CBE259B69E8B6D /* PBXTargetDependency */,
+				10DD52B48DA08D439525402D779E52D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-TFSSearchTextField_Tests";
 			productName = Pods_TFSSearchTextField_Tests;
 			productReference = FE5175272F3B94A7F36ECF43D6A90B6C /* Pods-TFSSearchTextField_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4B868CE440B5770016959F4EE84D284 /* TFSSearchTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E68E2FA6533CA237269E569FD391DE8 /* Build configuration list for PBXNativeTarget "TFSSearchTextField" */;
+			buildPhases = (
+				251A1E1CA680AE672126BEB9976C04D4 /* Headers */,
+				87A46751C854F6018D4616D3DFA0AC86 /* Sources */,
+				CCEA7DB9A37BBA40EEB3D92D89364005 /* Frameworks */,
+				95C5EAB72843E70161652FA7D32A249B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFSSearchTextField;
+			productName = TFSSearchTextField;
+			productReference = D51EF8D640DB53425FFDCA633F11436C /* TFSSearchTextField */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -279,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					8455793FA56B077B5000B17115863A74 = {
-						LastSwiftMigration = 1520;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -294,7 +327,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3315E7583C3DFE43567AE035692129A0 /* Products */;
+			productRefGroup = C5CC155DAC1EFFBE43477415B5A38EA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -307,6 +340,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		610035632CC4F4C74B1B44471F10A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C5EAB72843E70161652FA7D32A249B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,50 +371,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87A46751C854F6018D4616D3DFA0AC86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3761B0958D64A87703C947BB197E0CB9 /* TFSSearchTextField.swift in Sources */,
+				B67B65ECE4469118079ADEF8048A028E /* TFSSearchTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B89FBA32F749D1D5F381D640A6EBD8EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B40C39C092C3FD662BA0B2DB8485BC7B /* Pods-TFSSearchTextField_Example-dummy.m in Sources */,
-				3B7089272BB69A1B00414F33 /* TFSSearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C3E0F9B5D34FB5212CBE259B69E8B6D /* PBXTargetDependency */ = {
+		10DD52B48DA08D439525402D779E52D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TFSSearchTextField_Example";
 			target = 8455793FA56B077B5000B17115863A74 /* Pods-TFSSearchTextField_Example */;
-			targetProxy = EC371D219AD6E59D350A420810F8311F /* PBXContainerItemProxy */;
+			targetProxy = 8D17831197AD12AEFDF3E17D4934B3D4 /* PBXContainerItemProxy */;
 		};
-		0F64EFE0DFB13544E7D39659B62BF6A3 /* PBXTargetDependency */ = {
+		4209215CC0BBB96436FA47689A08A228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TFSSearchTextField;
 			target = E4B868CE440B5770016959F4EE84D284 /* TFSSearchTextField */;
-			targetProxy = 00872D8152C6705DDCAD6100C7099E14 /* PBXContainerItemProxy */;
+			targetProxy = 4CAB267E2A9194EC58501256033615B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01273F4618EEFFD5C65D37D04779CD9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD32F35760ACDC47066D54EAE133E414 /* TFSSearchTextField.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		26159E87A3DFA87227A2B5DBB4327D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 034E29317532C7269975A751B67ABC0A /* Pods-TFSSearchTextField_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9EC4AFC56D006F19F80ECEA0AC26154D /* Pods-TFSSearchTextField_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -404,6 +438,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3C944112A4858D68ED72AAA049530352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98080805D564BCAE10E4A33CE48F0124 /* TFSSearchTextField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFSSearchTextField/TFSSearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFSSearchTextField/TFSSearchTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFSSearchTextField/TFSSearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = TFSSearchTextField;
+				PRODUCT_NAME = TFSSearchTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55A072E3C79C1102C3D990DC72DFD0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FA4B6A18B1423B74BC723E3605934E /* TFSSearchTextField.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFSSearchTextField/TFSSearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFSSearchTextField/TFSSearchTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFSSearchTextField/TFSSearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = TFSSearchTextField;
+				PRODUCT_NAME = TFSSearchTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -460,30 +557,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		86950619EA20B385CC2FF8F6001F7D9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D50F37BF9086BC2731CA3E2BCE4DF334 /* TFSSearchTextField.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		99AD7C1711BE63487D6CFA7426BB6F49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ED199C5F054F547FA070D051E817EA4 /* Pods-TFSSearchTextField_Tests.release.xcconfig */;
+			baseConfigurationReference = A4CED6C151D0007C7007621472408369 /* Pods-TFSSearchTextField_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -517,10 +600,9 @@
 		};
 		9DEF163401BB1FB037DBC3D31C4693FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1843434D43247224322E71D1649D1B7C /* Pods-TFSSearchTextField_Example.debug.xcconfig */;
+			baseConfigurationReference = 9A90C43D2903512BECED522431FDD1DD /* Pods-TFSSearchTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,8 +625,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -553,10 +633,9 @@
 		};
 		B29731D062E8859B02A49B22AC3427CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD75BD5E4304D38671C6E3A39BF31BE4 /* Pods-TFSSearchTextField_Example.release.xcconfig */;
+			baseConfigurationReference = A128674714890C863D4D53DF65B501C6 /* Pods-TFSSearchTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,7 +658,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -648,7 +726,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -656,11 +734,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		245C672983A252568A55A7B669AD60B6 /* Build configuration list for PBXAggregateTarget "TFSSearchTextField" */ = {
+		1E68E2FA6533CA237269E569FD391DE8 /* Build configuration list for PBXNativeTarget "TFSSearchTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01273F4618EEFFD5C65D37D04779CD9F /* Debug */,
-				86950619EA20B385CC2FF8F6001F7D9C /* Release */,
+				3C944112A4858D68ED72AAA049530352 /* Debug */,
+				55A072E3C79C1102C3D990DC72DFD0E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
